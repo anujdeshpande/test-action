@@ -6,7 +6,6 @@ on:
 jobs:
   action:
      runs-on: ubuntu-latest
-       steps:
-         
-        - name: ha-ha
-          uses: ./.github/actions/joke-action
+     steps:
+       - name: ha-ha
+         uses: ./.github/actions/joke-action
